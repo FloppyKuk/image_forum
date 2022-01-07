@@ -1,0 +1,36 @@
+.register {
+  width: 250px;
+  height: 240px;
+  border: 1px solid white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  .loader {
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    color : orange;
+  }
+  .loaderNone {
+    display: none;
+  }
+  input {
+    width: 80%;
+    margin-top: 16px;
+  }
+  button {
+    padding: 0 10px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: 2px solid orange;
+    font-size: 18px;
+  }
+  button:active {
+    font-size: 20px;
+  }
+}
